@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="Virtuāla izstāde par videospēļu vēsturi no „Tennis for Two” līdz virtuālajai realitātei.">
+  <title>Videospēļu vēsture · Level Up</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body id="sakums">
+  <a class="skip-link" href="#galvenais">Pāriet uz saturu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#sakums">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span>Level Up</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-controls="primaryNav" aria-expanded="false">Izvēlne</button>
+      <nav class="nav" id="primaryNav" aria-label="Galvenā navigācija">
+        <a href="#par">Par izstādi</a>
+        <a href="#laika-linija">Laika līnija</a>
+        <a href="#galerija">Galerija</a>
+        <a href="#karuselis">Karuselis</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="galvenais" tabindex="-1">
+    <section class="hero container" aria-labelledby="heroTitle">
+      <div class="hero__text">
+        <h1 id="heroTitle">Videospēļu <span>vēsture</span></h1>
+        <p class="hero__lead">No tenisa spēles osciloskopa ekrānā līdz virtuālajai realitātei. Spēles un ierīces, kas mainīja to, kā mēs spēlējam.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#galerija">Apskatīt galeriju</a>
+          <a class="text-link" href="#laika-linija">Skatīt laika līniju</a>
+        </div>
+      </div>
+      <figure class="hero__figure">
+        <img class="hero__image" src="images/games.webp" alt="Kineskopa televizors ar dzintarkrāsas pikseļiem ekrānā un vadu spēļu pulti" width="1448" height="1086" fetchpriority="high">
+      </figure>
+    </section>
+
+    <section class="section about container" id="par" aria-labelledby="aboutTitle">
+      <div>
+        <p class="eyebrow">Par izstādi</p>
+        <h2 id="aboutTitle">Kā mainījās<br>spēlēšana?</h2>
+      </div>
+      <div class="about__copy">
+        <p>Vietai, kur spēlējām, ilgi bija nozīme. Sākumā spēli varēja izmēģināt laboratorijā vai spēļu automātu zālē. Mājas konsoles to pārcēla pie televizora, bet pārnēsājamās ierīces ļāva spēlēt arī ceļā.</p>
+        <p>Izstāde iepazīstina ar spēlēm un ierīcēm, kas iezīmē šīs pārmaiņas, un rāda, kā līdz ar ekrāniem un pultīm mainījušies arī spēlēšanas paradumi.</p>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="laika-linija" aria-labelledby="timelineTitle">
+      <div class="container">
+        <div class="section-top">
+          <h2 id="timelineTitle">Laika līnija</h2>
+        </div>
+        <ol class="timeline">
+        <li>
+          <time class="timeline__year" datetime="1958">1958</time>
+          <div>
+            <h3>Spēle laboratorijā</h3>
+            <p>„Tennis for Two” apmeklētājiem ļāva pašiem izmēģināt, ko var izdarīt ar analogo datoru un osciloskopu.</p>
+          </div>
+        </li>
+        <li>
+          <time class="timeline__year" datetime="1972">1972</time>
+          <div>
+            <h3>Spēles nonāk mājās</h3>
+            <p>„Magnavox Odyssey” pieslēdza pie televizora, kamēr „Pong” popularitāti ieguva spēļu automātu zālēs.</p>
+          </div>
+        </li>
+        <li>
+          <time class="timeline__year" datetime="1978">1978</time>
+          <div>
+            <h3>Spēļu automātu uzplaukums</h3>
+            <p>„Space Invaders” kļuva par vienu no spēlēm, kas piesaistīja lielu publiku automātu zālēm.</p>
+          </div>
+        </li>
+        <li>
+          <time class="timeline__year" datetime="1983">1983</time>
+          <div>
+            <h3>Nintendo ienāk mājās</h3>
+            <p>„Famicom” aizsāka Nintendo mājas konsoļu paaudzi, ko ārpus Japānas iepazina kā „NES”.</p>
+          </div>
+        </li>
+        <li>
+          <time class="timeline__year" datetime="1989">1989</time>
+          <div>
+            <h3>Spēle līdzi kabatā</h3>
+            <p>„Game Boy” pārnesa konsoļu spēles uz nelielu ierīci ar baterijām.</p>
+          </div>
+        </li>
+        <li>
+          <time class="timeline__year" datetime="1994">1994</time>
+          <div>
+            <h3>Pāreja uz 3D</h3>
+            <p>„PlayStation” palīdzēja 3D spēlēm no spēļu automātiem nonākt arī dzīvojamā istabā.</p>
+          </div>
+        </li>
+        <li>
+          <time class="timeline__year" datetime="2006">2006</time>
+          <div>
+            <h3>Vadība ar kustībām</h3>
+            <p>„Wii” spēlēs ierastas darbības varēja veikt ar žestiem.</p>
+          </div>
+        </li>
+        <li>
+          <time class="timeline__year" datetime="2020">2020+</time>
+          <div>
+            <h3>Virtuālā realitāte un straumēšana</h3>
+            <p>VR un mākoņspēles piedāvā jaunus veidus, kā spēlēt un piekļūt spēlēm.</p>
+          </div>
+        </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section container" id="galerija" aria-labelledby="galleryTitle">
+      <div class="section-top">
+        <h2 id="galleryTitle">Attēlu galerija</h2>
+      </div>
+      <div class="filter-bar" role="group" aria-label="Filtrēt galeriju pēc laikmeta">
+        <button class="filter-button" type="button" data-filter="all" aria-pressed="true">Visi laikmeti</button>
+        <button class="filter-button" type="button" data-filter="sakums" aria-pressed="false">1958–1979</button>
+        <button class="filter-button" type="button" data-filter="konsoles" aria-pressed="false">1980–2009</button>
+        <button class="filter-button" type="button" data-filter="musdienas" aria-pressed="false">No 2010. gada</button>
+      </div>
+      <p class="gallery-note" id="galleryStatus" role="status">Rādīti 11 no 11 eksponātiem.</p>
+      <div class="gallery-grid">
+        <article class="gallery-card" data-era="sakums">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Tennis for Two">
+            <img src="images/tennis-for-two.jpg" alt="Tennis for Two spēle DuMont osciloskopa ekrānā" width="705" height="626" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="1958">1958</time></div>
+            <h3 class="gallery-card__title">Tennis for Two</h3>
+            <p class="gallery-card__description">„Tennis for Two” bija elektroniska tenisa spēle, ko Brukheivenas laboratorijas apmeklētāji varēja spēlēt uz osciloskopa ekrāna.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="sakums">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Spacewar!">
+            <img src="images/spacewar.jpg" alt="Apaļš Spacewar! ekrāns ar kosmosa kuģiem" width="340" height="299" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="1962">1962</time></div>
+            <h3 class="gallery-card__title">Spacewar!</h3>
+            <p class="gallery-card__description">„Spacewar!” ir MIT radīta datorspēle, kurā divi spēlētāji vada kosmosa kuģus un cīnās viens pret otru.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="sakums">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Pong un Magnavox Odyssey">
+            <img src="images/pong.png" alt="Pong spēles ekrāns ar baltu bumbiņu un divām raketēm" width="516" height="387" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="1972">1972</time></div>
+            <h3 class="gallery-card__title">Pong un Magnavox Odyssey</h3>
+            <p class="gallery-card__description">„Pong” kļuva par spēļu automātu zāļu hitu. „Magnavox Odyssey” tajā pašā gadā ļāva spēlēt arī uz televizora mājās.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="sakums">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Space Invaders">
+            <img src="images/invaders.JPG" alt="Space Invaders spēļu automāts ar citplanētiešu rindām ekrānā" width="960" height="1280" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="1978">1978</time></div>
+            <h3 class="gallery-card__title">Space Invaders</h3>
+            <p class="gallery-card__description">„Space Invaders” piesaistīja spēlētājus automātu zālēm ar vienkāršu uzdevumu atvairīt citplanētiešu rindas.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="konsoles">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Nintendo Famicom">
+            <img src="images/famicom.jpg" alt="Nintendo Famicom reklāmas attēls ar konsoli un divām pultīm" width="713" height="429" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="1983">1983</time></div>
+            <h3 class="gallery-card__title">Nintendo Famicom</h3>
+            <p class="gallery-card__description">„Nintendo Famicom” iznāca Japānā. „NES”, tās radniecīgā versija, vēlāk palīdzēja atdzīvināt mājas konsoļu tirgu Ziemeļamerikā.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="konsoles">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Nintendo Game Boy">
+            <img src="images/gameboy.jpg" alt="Bēša Nintendo Game Boy konsole ar sarkanām pogām" width="723" height="423" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="1989">1989</time></div>
+            <h3 class="gallery-card__title">Nintendo Game Boy</h3>
+            <p class="gallery-card__description">„Nintendo Game Boy” ļāva paņemt spēles līdzi. „Tetris” kļuva par vienu no spēlēm, ar ko šo konsoli visbiežāk saista.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="konsoles">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Sony PlayStation">
+            <img src="images/playstation.jpg" alt="Pelēka Sony PlayStation konsole ar vadu pulti" width="678" height="452" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="1994">1994</time></div>
+            <h3 class="gallery-card__title">Sony PlayStation</h3>
+            <p class="gallery-card__description">„Sony PlayStation” vispirms iznāca Japānā un palīdzēja popularizēt CD spēles un 3D grafiku mājas konsolēs.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="konsoles">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Microsoft Xbox">
+            <img src="images/xbox.jpg" alt="Melna Xbox konsole ar zaļu emblēmu un spēļu pulti" width="1200" height="800" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="2001">2001</time></div>
+            <h3 class="gallery-card__title">Microsoft Xbox</h3>
+            <p class="gallery-card__description">„Microsoft Xbox” iezīmēja Microsoft ienākšanu mājas konsoļu tirgū. Turpmākajos gados spēlēšana tiešsaistē kļuva par svarīgu konsoļu funkciju.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="konsoles">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Nintendo Wii">
+            <img src="images/wii.jpg" alt="Balta Wii konsole ar Wii Remote un Nunchuk pultīm" width="538" height="371" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="2006">2006</time></div>
+            <h3 class="gallery-card__title">Nintendo Wii</h3>
+            <p class="gallery-card__description">„Nintendo Wii” uztvēra pults kustības, tāpēc spēlētājs varēja atvēzēties tā, it kā turētu tenisa raketi.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="musdienas">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: Mobilās spēles">
+            <img src="images/mobile.jpg" alt="Dažādu mobilo spēļu lietotņu ikonas" width="696" height="310" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="2010">2010+</time></div>
+            <h3 class="gallery-card__title">Mobilās spēles</h3>
+            <p class="gallery-card__description">Viedtālruņi un lietotņu veikali ļāva lejupielādēt un spēlēt spēles ierīcē, ko cilvēki jau nēsāja kabatā.</p>
+          </div>
+        </article>
+        <article class="gallery-card" data-era="musdienas">
+          <button class="gallery-card__open" type="button" aria-label="Palielināt attēlu: VR un mākoņspēles">
+            <img src="images/vr.webp" alt="Baltas virtuālās realitātes brilles ar divām pultīm" width="294" height="228" loading="lazy">
+            <span class="gallery-card__magnify" aria-hidden="true">+</span>
+          </button>
+          <div class="gallery-card__body">
+            <div class="gallery-card__meta"><time datetime="2020">2020+</time></div>
+            <h3 class="gallery-card__title">VR un mākoņspēles</h3>
+            <p class="gallery-card__description">Virtuālās realitātes brilles ļauj skatīties apkārt spēles pasaulē, savukārt mākoņspēles straumē no attālināta datora.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section carousel-section" id="karuselis" aria-labelledby="carouselTitle">
+      <div class="container">
+        <div class="section-top">
+          <h2 id="carouselTitle">Seši eksponāti tuvplānā</h2>
+        </div>
+        <div class="carousel" id="historyCarousel" role="region" aria-roledescription="karuselis" aria-label="Izstādes eksponāti" tabindex="0">
+          <div class="carousel__slides">
+          <article class="carousel-slide" role="group" aria-roledescription="slaids" aria-label="1. no 6">
+            <img src="images/tennis-for-two.jpg" alt="Tennis for Two spēle DuMont osciloskopa ekrānā" width="705" height="626" loading="lazy">
+            <div class="carousel-slide__content">
+              <time class="carousel-slide__year" datetime="1958">1958</time>
+              <h3>Tennis for Two</h3>
+              <p>„Tennis for Two” bija elektroniska tenisa spēle, ko Brukheivenas laboratorijas apmeklētāji varēja spēlēt uz osciloskopa ekrāna.</p>
+            </div>
+          </article>
+          <article class="carousel-slide" role="group" aria-roledescription="slaids" aria-label="2. no 6" hidden>
+            <img src="images/pong.png" alt="Pong spēles ekrāns ar baltu bumbiņu un divām raketēm" width="516" height="387" loading="lazy">
+            <div class="carousel-slide__content">
+              <time class="carousel-slide__year" datetime="1972">1972</time>
+              <h3>Pong un Magnavox Odyssey</h3>
+              <p>„Pong” kļuva par spēļu automātu zāļu hitu. „Magnavox Odyssey” tajā pašā gadā ļāva spēlēt arī uz televizora mājās.</p>
+            </div>
+          </article>
+          <article class="carousel-slide" role="group" aria-roledescription="slaids" aria-label="3. no 6" hidden>
+            <img src="images/invaders.JPG" alt="Space Invaders spēļu automāts ar citplanētiešu rindām ekrānā" width="960" height="1280" loading="lazy">
+            <div class="carousel-slide__content">
+              <time class="carousel-slide__year" datetime="1978">1978</time>
+              <h3>Space Invaders</h3>
+              <p>„Space Invaders” piesaistīja spēlētājus automātu zālēm ar vienkāršu uzdevumu atvairīt citplanētiešu rindas.</p>
+            </div>
+          </article>
+          <article class="carousel-slide" role="group" aria-roledescription="slaids" aria-label="4. no 6" hidden>
+            <img src="images/gameboy.jpg" alt="Bēša Nintendo Game Boy konsole ar sarkanām pogām" width="723" height="423" loading="lazy">
+            <div class="carousel-slide__content">
+              <time class="carousel-slide__year" datetime="1989">1989</time>
+              <h3>Nintendo Game Boy</h3>
+              <p>„Nintendo Game Boy” ļāva paņemt spēles līdzi. „Tetris” kļuva par vienu no spēlēm, ar ko šo konsoli visbiežāk saista.</p>
+            </div>
+          </article>
+          <article class="carousel-slide" role="group" aria-roledescription="slaids" aria-label="5. no 6" hidden>
+            <img src="images/playstation.jpg" alt="Pelēka Sony PlayStation konsole ar vadu pulti" width="678" height="452" loading="lazy">
+            <div class="carousel-slide__content">
+              <time class="carousel-slide__year" datetime="1994">1994</time>
+              <h3>Sony PlayStation</h3>
+              <p>„Sony PlayStation” vispirms iznāca Japānā un palīdzēja popularizēt CD spēles un 3D grafiku mājas konsolēs.</p>
+            </div>
+          </article>
+          <article class="carousel-slide" role="group" aria-roledescription="slaids" aria-label="6. no 6" hidden>
+            <img src="images/vr.webp" alt="Baltas virtuālās realitātes brilles ar divām pultīm" width="294" height="228" loading="lazy">
+            <div class="carousel-slide__content">
+              <time class="carousel-slide__year" datetime="2020">2020+</time>
+              <h3>VR un mākoņspēles</h3>
+              <p>Virtuālās realitātes brilles ļauj skatīties apkārt spēles pasaulē, savukārt mākoņspēles straumē no attālināta datora.</p>
+            </div>
+          </article>
+          </div>
+          <div class="carousel__footer">
+            <p class="carousel__counter"><span class="visually-hidden">Slaids </span><span id="slideCurrent">1</span> / <span id="slideTotal">6</span></p>
+            <div class="carousel__controls">
+              <button class="control-button" id="prevSlide" type="button">Iepriekšējais</button>
+              <button class="control-button" id="nextSlide" type="button">Nākamais</button>
+              <button class="control-button control-button--play" id="autoplayToggle" type="button" aria-label="Apturēt automātisko pārslēgšanu"><span id="autoplayText">Apturēt</span></button>
+            </div>
+          </div>
+          <div class="carousel__progress" aria-hidden="true"><span id="carouselProgress"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sources container" id="avoti" aria-labelledby="sourcesTitle">
+      <div class="section-top">
+        <h2 id="sourcesTitle">Avoti</h2>
+      </div>
+      <ul class="sources-list">
+        <li><a href="https://www.bnl.gov/about/history/firstvideo.php">
+          <strong>Brookhaven National Laboratory</strong><span>Tennis for Two</span>
+        </a></li>
+        <li><a href="https://www.computerhistory.org/timeline/graphics-games/">
+          <strong>Computer History Museum</strong><span>Datorgrafikas un videospēļu laika līnija</span>
+        </a></li>
+        <li><a href="https://americanhistory.si.edu/collections/object/nmah_1302004">
+          <strong>Smithsonian Institution</strong><span>Magnavox Odyssey un Pong</span>
+        </a></li>
+        <li><a href="https://www.nintendo.co.jp/corporate/en/history/index.html">
+          <strong>Nintendo</strong><span>Famicom, Game Boy un Wii</span>
+        </a></li>
+        <li><a href="https://www.playstation.com/en-us/playstation-history/1994-ps-one/">
+          <strong>PlayStation</strong><span>Pirmās PlayStation iznākšana</span>
+        </a></li>
+        <li><a href="https://news.microsoft.com/source/2001/11/15/xbox-erupts-on-the-scene/">
+          <strong>Microsoft</strong><span>Pirmās Xbox konsoles iznākšana</span>
+        </a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>Komanda Level Up (Kristers Brēdiķis, Mārcis Catlakšs, Endijs Ņikitins)</strong><br>© 2026</p>
+      <nav aria-label="Kājenes navigācija">
+        <a href="#avoti">Informācijas avoti</a>
+        <a href="#sakums">Uz lapas sākumu</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="imageLightbox" aria-labelledby="lightboxTitle">
+    <button class="lightbox__close" id="closeLightbox" type="button" aria-label="Aizvērt attēlu" autofocus>×</button>
+    <img id="lightboxImage" src="images/tennis-for-two.jpg" alt="" width="705" height="626">
+    <div class="lightbox__caption">
+      <span id="lightboxYear"></span>
+      <div>
+        <h2 id="lightboxTitle"></h2>
+        <p id="lightboxDescription"></p>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
